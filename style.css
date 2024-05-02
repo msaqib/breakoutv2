@@ -1,0 +1,51 @@
+.grid {
+    width: 670px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #444;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.block {
+    width: 100px;
+    height: 20px;
+    background-color: #777777;
+    position: absolute;
+}
+
+.bat {
+    width: 100px;
+    height: 20px;
+    background-color: #AA0303;
+    position: absolute;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    background-color: #03AA03;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.countdown {
+    font-size: 48px;
+    color: white;
+}
